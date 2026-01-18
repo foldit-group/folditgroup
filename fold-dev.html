@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fold Dev | Software Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="white"><polygon points="10,10 90,10 90,25 25,25 25,42 10,42"/><polygon points="25,42 60,42 60,57 25,57"/><polygon points="10,42 25,42 25,90 10,75"/></svg>
+                <span>Fold Dev</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="hero-bg"><div class="hero-gradient"></div><div class="hero-grid"></div></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="hero-badge animate-fade-up"><span class="badge-dot"></span>Part of Fold IT Group</div>
+                <h1 class="page-hero-title animate-fade-up delay-1">Fold <span class="gradient-text">Dev</span></h1>
+                <p class="page-hero-subtitle animate-fade-up delay-2">Building robust software solutions. Mobile apps, desktop applications, APIs, and custom software tailored to your business needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Software<br><span class="gradient-text">Services</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+                    <h3>Desktop Apps</h3>
+                    <p>Cross-platform desktop applications for Windows, macOS, and Linux.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                    <h3>API Development</h3>
+                    <p>RESTful and GraphQL APIs with robust security and documentation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+                    <h3>Backend Systems</h3>
+                    <p>Scalable server architectures, databases, and microservices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+                    <h3>Cloud Solutions</h3>
+                    <p>AWS, Google Cloud, and Azure deployment and infrastructure.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+                    <h3>Custom Software</h3>
+                    <p>Bespoke solutions built to solve your unique business challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="process" style="background: var(--color-gray-700);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">How We Work</span>
+                <h2 class="section-title">Our<br><span class="gradient-text">Process</span></h2>
+            </div>
+            <div class="process-list">
+                <div class="process-item">
+                    <span class="process-number">01</span>
+                    <div class="process-content">
+                        <h3>Requirements Analysis</h3>
+                        <p>Deep dive into your business needs, technical requirements, and user stories.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">02</span>
+                    <div class="process-content">
+                        <h3>Architecture & Planning</h3>
+                        <p>Design scalable architecture and create detailed technical specifications.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">03</span>
+                    <div class="process-content">
+                        <h3>Agile Development</h3>
+                        <p>Iterative development with regular demos and feedback loops.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">04</span>
+                    <div class="process-content">
+                        <h3>Testing & Deployment</h3>
+                        <p>Comprehensive testing, CI/CD setup, and smooth production deployment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-item">React Native</span>
+                <span class="tech-item">Flutter</span>
+                <span class="tech-item">Swift</span>
+                <span class="tech-item">Kotlin</span>
+                <span class="tech-item">Python</span>
+                <span class="tech-item">Node.js</span>
+                <span class="tech-item">Go</span>
+                <span class="tech-item">Rust</span>
+                <span class="tech-item">PostgreSQL</span>
+                <span class="tech-item">Redis</span>
+                <span class="tech-item">Docker</span>
+                <span class="tech-item">Kubernetes</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Build Your<br><span class="gradient-text">Software Solution?</span></h2>
+            <p class="section-subtitle">Let's turn your ideas into powerful software.</p>
+            <div class="hero-cta">
+                <a href="mailto:folditgroup@gmail.com" class="btn btn-primary">Start a Project</a>
+                <a href="index.html#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo"><svg class="logo-icon" viewBox="0 0 100 100" fill="white"><polygon points="10,10 90,10 90,25 25,25 25,42 10,42"/><polygon points="25,42 60,42 60,57 25,57"/><polygon points="10,42 25,42 25,90 10,75"/></svg><span>Fold IT Group</span></a>
+                    <p>Digital Solutions Holding. Four companies, one vision.</p>
+                </div>
+                <div class="footer-links"><h4>Companies</h4><a href="fold-web.html">Fold Web</a><a href="fold-smm.html">Fold SMM</a><a href="fold-design.html">Fold Design</a><a href="fold-dev.html">Fold Dev</a></div>
+                <div class="footer-links"><h4>Navigation</h4><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#portfolio">Portfolio</a><a href="index.html#contact">Contact</a></div>
+                <div class="footer-links"><h4>Contact</h4><a href="mailto:folditgroup@gmail.com">folditgroup@gmail.com</a><a href="tel:6308197396">630 819 7396</a></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 Fold IT Group. All rights reserved.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
