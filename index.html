@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="t.index">Fold IT Group | Digital Solutions Holding</title>
+    <meta name="description" content="Fold IT Group is a digital solutions holding of five specialized companies: Fold Dev, Fold Web, Fold Design, Fold Security, and Fold AI.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span>Fold IT Group</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+                <a href="#companies" class="nav-link" data-i18n="nav.companies">Companies</a>
+                <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+                <a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portfolio</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" data-lang="uk" aria-pressed="false">UA</button>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-up">
+                <span class="badge-dot"></span>
+                <span data-i18n="badge.holding">Digital Solutions Holding</span>
+            </div>
+            <h1 class="hero-title animate-fade-up delay-1" data-i18n="hero.title">
+                We Build<br>
+                <span class="gradient-text">Digital Excellence</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-2" data-i18n="hero.sub">
+                Five specialized companies. One unified vision.<br>
+                Crafting digital experiences that define the future.
+            </p>
+            <div class="hero-cta animate-fade-up delay-3">
+                <a href="#companies" class="btn btn-primary">
+                    <span data-i18n="btn.explore">Explore Companies</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary" data-i18n="btn.touch">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span data-i18n="hero.scroll">Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        <div class="ticker" aria-hidden="true">
+            <div class="ticker-track">
+                <span class="ticker-item">Fold Dev <i>//</i> Fold Web <i>//</i> Fold Design <i>//</i> Fold Security <i>//</i> Fold AI <i>//</i> Fold IT Group <i>//</i>&nbsp;</span>
+                <span class="ticker-item">Fold Dev <i>//</i> Fold Web <i>//</i> Fold Design <i>//</i> Fold Security <i>//</i> Fold AI <i>//</i> Fold IT Group <i>//</i>&nbsp;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="about.label">About Us</span>
+                <h2 class="section-title" data-i18n="about.title">
+                    A Holding Company<br>
+                    <span class="gradient-text">Built for Innovation</span>
+                </h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text large" data-i18n="about.p1">
+                        Fold IT Group is a technology holding company that brings together five specialized digital companies under one roof. We believe in the power of focused expertise combined with unified collaboration.
+                    </p>
+                    <p class="about-text" data-i18n="about.p2">
+                        Each of our companies operates independently with deep specialization in their domain, while sharing resources, knowledge, and a commitment to excellence. This structure allows us to deliver comprehensive digital solutions while maintaining the agility and expertise of specialized teams.
+                    </p>
+                    <p class="about-text" data-i18n="about.p3">
+                        From web and software development to design, secure data infrastructure, and AI — we cover the full spectrum of digital needs with precision and creativity.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label" data-i18n="stat1.l">Specialized Companies</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">&infin;</span>
+                        <span class="stat-label" data-i18n="stat2.l">Possibilities</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label" data-i18n="stat3.l">Unified Vision</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label" data-i18n="stat4.l">Dedicated Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies section" id="companies">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="comp.label">Our Companies</span>
+                <h2 class="section-title" data-i18n="comp.title">
+                    Five Pillars of<br>
+                    <span class="gradient-text">Digital Excellence</span>
+                </h2>
+                <p class="section-subtitle" data-i18n="comp.sub">
+                    Each company brings specialized expertise to deliver outstanding results in their domain.
+                </p>
+            </div>
+            <div class="companies-grid">
+                <!-- Fold Dev -->
+                <a href="fold-dev.html" class="company-card">
+                    <span class="company-tag">UNIT 01</span>
+                    <div class="company-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                            <line x1="14" y1="4" x2="10" y2="20"/>
+                        </svg>
+                    </div>
+                    <h3 class="company-name">Fold Dev</h3>
+                    <p class="company-desc" data-i18n="c.dev.desc">Software Development</p>
+                    <p class="company-details" data-i18n="c.dev.det">
+                        Building robust software solutions. Mobile apps, desktop applications, APIs, and custom software tailored to your business needs.
+                    </p>
+                    <span class="company-link">
+                        <span data-i18n="link.explore">Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Fold Web -->
+                <a href="fold-web.html" class="company-card">
+                    <span class="company-tag">UNIT 02</span>
+                    <div class="company-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <circle cx="6.5" cy="6" r="0.5" fill="currentColor"/>
+                            <circle cx="9" cy="6" r="0.5" fill="currentColor"/>
+                            <circle cx="11.5" cy="6" r="0.5" fill="currentColor"/>
+                            <path d="M7 13l3 3-3 3"/>
+                            <path d="M14 19h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="company-name">Fold Web</h3>
+                    <p class="company-desc" data-i18n="c.web.desc">Web Development &amp; Solutions</p>
+                    <p class="company-details" data-i18n="c.web.det">
+                        Creating stunning, high-performance websites and web applications. From landing pages to complex platforms — we bring your digital presence to life.
+                    </p>
+                    <span class="company-link">
+                        <span data-i18n="link.explore">Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Fold Design -->
+                <a href="fold-design.html" class="company-card">
+                    <span class="company-tag">UNIT 03</span>
+                    <div class="company-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="13.5" cy="6.5" r="2.5"/>
+                            <path d="M17 2l5 5-9.5 9.5a2 2 0 01-1 .54l-3.5.7.7-3.5a2 2 0 01.54-1z"/>
+                            <path d="M2 22l4-1 -3-3z"/>
+                            <path d="M2 22c1-4 3-6 6-7"/>
+                        </svg>
+                    </div>
+                    <h3 class="company-name">Fold Design</h3>
+                    <p class="company-desc" data-i18n="c.design.desc">UI/UX &amp; Brand Design</p>
+                    <p class="company-details" data-i18n="c.design.det">
+                        Crafting visual experiences that captivate and convert. Brand identity, user interfaces, and design systems that stand out.
+                    </p>
+                    <span class="company-link">
+                        <span data-i18n="link.explore">Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Fold Security -->
+                <a href="fold-security.html" class="company-card">
+                    <span class="company-tag">UNIT 04</span>
+                    <div class="company-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-3.5 8-10V5.5L12 2 4 5.5V12c0 6.5 8 10 8 10z"/>
+                            <ellipse cx="12" cy="8.6" rx="3.4" ry="1.5"/>
+                            <path d="M8.6 8.6v4c0 .85 1.5 1.5 3.4 1.5s3.4-.65 3.4-1.5v-4"/>
+                            <path d="M8.6 10.6c0 .85 1.5 1.5 3.4 1.5s3.4-.65 3.4-1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="company-name">Fold Security</h3>
+                    <p class="company-desc" data-i18n="c.sec.desc">Data Infrastructure &amp; Reliability</p>
+                    <p class="company-details" data-i18n="c.sec.det">
+                        Designing and building centralized databases and data processing systems that keep your information consistent, protected, and always available.
+                    </p>
+                    <span class="company-link">
+                        <span data-i18n="link.explore">Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Fold AI -->
+                <a href="fold-ai.html" class="company-card">
+                    <span class="company-tag">UNIT 05</span>
+                    <div class="company-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="7" y="7" width="10" height="10" rx="1.5"/>
+                            <path d="M9.5 2v5M14.5 2v5M9.5 17v5M14.5 17v5M2 9.5h5M2 14.5h5M17 9.5h5M17 14.5h5"/>
+                            <path d="M12 10v4M10 12h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="company-name">Fold AI</h3>
+                    <p class="company-desc" data-i18n="c.ai.desc">AI Assistants &amp; Analytics</p>
+                    <p class="company-details" data-i18n="c.ai.det">
+                        Building native, personalized AI assistants — chatbots and analysis systems — that understand your business and work the way you do.
+                    </p>
+                    <span class="company-link">
+                        <span data-i18n="link.explore">Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="serv.label">Our Services</span>
+                <h2 class="section-title" data-i18n="serv.title">
+                    Full-Spectrum<br>
+                    <span class="gradient-text">Digital Solutions</span>
+                </h2>
+            </div>
+            <div class="services-list">
+                <div class="service-item">
+                    <span class="service-number">01</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s1.t">Web Development</h3>
+                        <p data-i18n="s1.d">Custom websites, e-commerce platforms, web applications, and CMS solutions built with modern technologies.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Node.js</span>
+                        <span>WordPress</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">02</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s2.t">Mobile Development</h3>
+                        <p data-i18n="s2.d">Native and cross-platform mobile applications for iOS and Android that deliver exceptional user experiences.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>React Native</span>
+                        <span>iOS</span>
+                        <span>Android</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">03</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s3.t">Custom Software</h3>
+                        <p data-i18n="s3.d">Bespoke software solutions, APIs, integrations, and enterprise systems built to scale with your business.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Python</span>
+                        <span>APIs</span>
+                        <span>Cloud</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">04</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s4.t">UI/UX Design</h3>
+                        <p data-i18n="s4.d">User research, wireframing, prototyping, and visual design that creates intuitive and beautiful experiences.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Figma</span>
+                        <span>Prototyping</span>
+                        <span>Design Systems</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">05</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s5.t">Brand Identity</h3>
+                        <p data-i18n="s5.d">Logo design, brand guidelines, visual identity systems, and marketing collateral that define your brand.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Logo</span>
+                        <span>Guidelines</span>
+                        <span>Print</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">06</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s6.t">Data Infrastructure &amp; Security</h3>
+                        <p data-i18n="s6.d">Centralized databases, data processing pipelines, backups, and access control that keep your information reliable.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>PostgreSQL</span>
+                        <span>Encryption</span>
+                        <span>Backups</span>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span class="service-number">07</span>
+                    <div class="service-content">
+                        <h3 data-i18n="s7.t">AI Solutions</h3>
+                        <p data-i18n="s7.d">Personalized AI assistants, chatbots, and analysis systems trained on your data and workflows.</p>
+                    </div>
+                    <div class="service-tags">
+                        <span>Chatbots</span>
+                        <span>RAG</span>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="port.label">Portfolio</span>
+                <h2 class="section-title" data-i18n="port.title">
+                    Selected<br>
+                    <span class="gradient-text">Projects</span>
+                </h2>
+                <p class="section-subtitle" data-i18n="port.sub">
+                    A glimpse into the products and platforms we've shipped.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <!-- Drevito -->
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <span class="project-category" data-i18n="pj.drevito.cat">SaaS · Field Service</span>
+                        <a href="https://drevito.com" target="_blank" rel="noopener noreferrer" class="project-external" aria-label="Open Drevito live site in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-name">Drevito</h3>
+                    <p class="project-tagline" data-i18n="pj.drevito.tag">Run your field service business.</p>
+                    <p class="project-desc" data-i18n="pj.drevito.desc">Field service management that unifies scheduling, dispatch, and invoicing. One platform from the first call to the final payment.</p>
+                    <a href="project-drevito.html" class="project-link">
+                        <span data-i18n="btn.view">View Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Crited -->
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <span class="project-category" data-i18n="pj.crited.cat">AI · Product Management</span>
+                        <a href="https://crited.com" target="_blank" rel="noopener noreferrer" class="project-external" aria-label="Open Crited live site in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-name">Crited</h3>
+                    <p class="project-tagline" data-i18n="pj.crited.tag">AI product management, end to end.</p>
+                    <p class="project-desc" data-i18n="pj.crited.desc">An AI-powered workspace that turns raw feedback into prioritized roadmaps. From insight to shipped product, faster.</p>
+                    <a href="project-crited.html" class="project-link">
+                        <span data-i18n="btn.view">View Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Pidgoretskyi Maietok -->
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <span class="project-category" data-i18n="pj.mk.cat">Hospitality · Booking Platform</span>
+                        <a href="http://www.pidgoretskyymaietok.com" target="_blank" rel="noopener noreferrer" class="project-external" aria-label="Open Pidgoretskyi Maietok live site in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-name" data-i18n="pj.mk.name">Pidgoretskyi Maietok</h3>
+                    <p class="project-tagline" data-i18n="pj.mk.tag">An 18th-century palace estate, reborn as a luxury retreat.</p>
+                    <p class="project-desc" data-i18n="pj.mk.desc">A boutique estate hotel in Pidhirtsi, Ukraine. We built its digital home — with online booking for rooms and the pool, plus a management system for the team.</p>
+                    <a href="project-pidgoretskyi-maietok.html" class="project-link">
+                        <span data-i18n="btn.view">View Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Menuo AI -->
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <span class="project-category" data-i18n="pj.menuo.cat">AI · Restaurant Tech</span>
+                        <a href="https://menuo.ai" target="_blank" rel="noopener noreferrer" class="project-external" aria-label="Open Menuo AI live site in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-name">Menuo AI</h3>
+                    <p class="project-tagline" data-i18n="pj.menuo.tag">AI-powered restaurant management.</p>
+                    <p class="project-desc" data-i18n="pj.menuo.desc">An all-in-one platform for orders, finances, inventory, and staff. AI inventory predictions cut food waste by up to 40%.</p>
+                    <a href="project-menuo.html" class="project-link">
+                        <span data-i18n="btn.view">View Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Drevito App -->
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <span class="project-category" data-i18n="pj.dapp.cat">Mobile App · iOS · Android</span>
+                        <a href="https://drevito.com" target="_blank" rel="noopener noreferrer" class="project-external" aria-label="Open Drevito live site in a new tab">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-name">Drevito App</h3>
+                    <p class="project-tagline" data-i18n="pj.dapp.tag">Your field service business, in your pocket.</p>
+                    <p class="project-desc" data-i18n="pj.dapp.desc">The mobile companion to Drevito. Technicians manage jobs, capture photos, and collect payment on-site — online or off.</p>
+                    <a href="project-drevito-app.html" class="project-link">
+                        <span data-i18n="btn.view">View Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section — direct channels, no form -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label" data-i18n="contact.label">Contact Us</span>
+                <h2 class="section-title" data-i18n="contact.title">
+                    Let's Build<br>
+                    <span class="gradient-text">Something Great</span>
+                </h2>
+                <p class="section-subtitle" data-i18n="contact.text">
+                    Ready to start your project? Have questions about our services? Reach us directly — we'd love to hear from you.
+                </p>
+            </div>
+            <div class="contact-channels">
+                <a href="mailto:folditgroup@gmail.com" class="channel-card">
+                    <span class="channel-label" data-i18n="contact.email">Write to us</span>
+                    <span class="channel-value">folditgroup@gmail.com</span>
+                    <span class="channel-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="tel:6308197396" class="channel-card">
+                    <span class="channel-label" data-i18n="contact.phone">Call us</span>
+                    <span class="channel-value">630 819 7396</span>
+                    <span class="channel-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 100 100" fill="currentColor">
+                            <polygon points="10,10 90,10 90,25 25,25 25,42 10,42"/>
+                            <polygon points="25,42 60,42 60,57 25,57"/>
+                            <polygon points="10,42 25,42 25,90 10,75"/>
+                        </svg>
+                        <span>Fold IT Group</span>
+                    </a>
+                    <p data-i18n="footer.tagline">Digital Solutions Holding. Five companies, one vision for digital excellence.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.companies">Companies</h4>
+                    <a href="fold-dev.html">Fold Dev</a>
+                    <a href="fold-web.html">Fold Web</a>
+                    <a href="fold-design.html">Fold Design</a>
+                    <a href="fold-security.html">Fold Security</a>
+                    <a href="fold-ai.html">Fold AI</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.nav">Navigation</h4>
+                    <a href="#about" data-i18n="nav.about">About</a>
+                    <a href="#services" data-i18n="nav.services">Services</a>
+                    <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.contact">Contact</h4>
+                    <a href="mailto:folditgroup@gmail.com">folditgroup@gmail.com</a>
+                    <a href="tel:6308197396">630 819 7396</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.rights">&copy; 2026 Fold IT Group. All rights reserved.</p>
+                <p>50.4501&deg;N &middot; 30.5234&deg;E</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

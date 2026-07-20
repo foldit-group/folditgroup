@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="t.web">Fold Web | Web Development — Fold IT Group</title>
+    <meta name="description" content="Fold Web creates high-performance websites, web applications, and e-commerce. Part of Fold IT Group.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="currentColor"><polygon points="10,10 90,10 90,25 25,25 25,42 10,42"/><polygon points="25,42 60,42 60,57 25,57"/><polygon points="10,42 25,42 25,90 10,75"/></svg>
+                <span>Fold Web</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+                <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+                <a href="#process" class="nav-link" data-i18n="nav.process">Process</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" data-lang="uk" aria-pressed="false">UA</button>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-bg"><div class="hero-gradient"></div><div class="hero-grid"></div></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <div class="hero-badge animate-fade-up"><span class="badge-dot"></span><span data-i18n="badge.partof">Part of Fold IT Group</span></div>
+                <h1 class="page-hero-title animate-fade-up delay-1">Fold <span class="gradient-text">Web</span></h1>
+                <p class="page-hero-subtitle animate-fade-up delay-2" data-i18n="web.sub">Creating stunning, high-performance websites and web applications that drive results. From simple landing pages to complex platforms — we bring your digital presence to life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="what.label">What We Do</span>
+                <h2 class="section-title" data-i18n="web.serv.title">Web Development<br><span class="gradient-text">Services</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg></div>
+                    <h3 data-i18n="web.f1.t">Custom Websites</h3>
+                    <p data-i18n="web.f1.d">Bespoke website design and development tailored to your brand identity and business goals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+                    <h3 data-i18n="web.f2.t">Web Applications</h3>
+                    <p data-i18n="web.f2.d">Full-stack web applications with modern frameworks, robust backends, and seamless user experiences.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg></div>
+                    <h3 data-i18n="web.f3.t">E-Commerce</h3>
+                    <p data-i18n="web.f3.d">Online stores that convert visitors into customers with optimized checkout flows and secure payments.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+                    <h3 data-i18n="web.f4.t">CMS Solutions</h3>
+                    <p data-i18n="web.f4.d">Content management systems that empower you to update and manage your website with ease.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+                    <h3 data-i18n="web.f5.t">Landing Pages</h3>
+                    <p data-i18n="web.f5.d">High-converting landing pages designed to capture leads and drive specific marketing objectives.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                    <h3 data-i18n="web.f6.t">Performance Optimization</h3>
+                    <p data-i18n="web.f6.d">Speed optimization, SEO improvements, and technical audits to maximize your website’s potential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section" id="process" style="background: var(--color-gray-700);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="how.label">How We Work</span>
+                <h2 class="section-title" data-i18n="proc.title">Our<br><span class="gradient-text">Process</span></h2>
+            </div>
+            <div class="process-list">
+                <div class="process-item">
+                    <span class="process-number">01</span>
+                    <div class="process-content">
+                        <h3 data-i18n="web.p1.t">Discovery & Strategy</h3>
+                        <p data-i18n="web.p1.d">We begin by understanding your business, goals, target audience, and competitors. This research phase informs our strategic approach and ensures we build something that truly serves your needs.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">02</span>
+                    <div class="process-content">
+                        <h3 data-i18n="web.p2.t">Design & Prototyping</h3>
+                        <p data-i18n="web.p2.d">Our design team creates wireframes and high-fidelity mockups that bring your vision to life. We iterate based on your feedback until the design perfectly represents your brand.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">03</span>
+                    <div class="process-content">
+                        <h3 data-i18n="web.p3.t">Development</h3>
+                        <p data-i18n="web.p3.d">Using modern technologies and best practices, we build your website with clean, maintainable code. We prioritize performance, security, and scalability at every step.</p>
+                    </div>
+                </div>
+                <div class="process-item">
+                    <span class="process-number">04</span>
+                    <div class="process-content">
+                        <h3 data-i18n="web.p4.t">Testing & Launch</h3>
+                        <p data-i18n="web.p4.d">Rigorous testing across devices and browsers ensures everything works flawlessly. We handle the deployment and provide training so you’re confident managing your new site.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack">
+                <span class="tech-item">React</span>
+                <span class="tech-item">Next.js</span>
+                <span class="tech-item">Vue.js</span>
+                <span class="tech-item">Node.js</span>
+                <span class="tech-item">TypeScript</span>
+                <span class="tech-item">WordPress</span>
+                <span class="tech-item">Shopify</span>
+                <span class="tech-item">Webflow</span>
+                <span class="tech-item">PostgreSQL</span>
+                <span class="tech-item">MongoDB</span>
+                <span class="tech-item">AWS</span>
+                <span class="tech-item">Vercel</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="web.cta.t">Ready to Build Your<br><span class="gradient-text">Web Presence?</span></h2>
+            <p class="section-subtitle" data-i18n="web.cta.s">Let’s discuss your project and create something amazing together.</p>
+            <div class="hero-cta">
+                <a href="mailto:folditgroup@gmail.com" class="btn btn-primary">
+                    <span data-i18n="btn.start">Start a Project</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="index.html#contact" class="btn btn-secondary" data-i18n="btn.contactus">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo"><svg class="logo-icon" viewBox="0 0 100 100" fill="currentColor"><polygon points="10,10 90,10 90,25 25,25 25,42 10,42"/><polygon points="25,42 60,42 60,57 25,57"/><polygon points="10,42 25,42 25,90 10,75"/></svg><span>Fold IT Group</span></a>
+                    <p data-i18n="footer.tagline">Digital Solutions Holding. Five companies, one vision for digital excellence.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.companies">Companies</h4>
+                    <a href="fold-dev.html">Fold Dev</a>
+                    <a href="fold-web.html">Fold Web</a>
+                    <a href="fold-design.html">Fold Design</a>
+                    <a href="fold-security.html">Fold Security</a>
+                    <a href="fold-ai.html">Fold AI</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.nav">Navigation</h4>
+                    <a href="index.html#about" data-i18n="nav.about">About</a>
+                    <a href="index.html#services" data-i18n="nav.services">Services</a>
+                    <a href="index.html#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+                    <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.contact">Contact</h4>
+                    <a href="mailto:folditgroup@gmail.com">folditgroup@gmail.com</a>
+                    <a href="tel:6308197396">630 819 7396</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.rights">&copy; 2026 Fold IT Group. All rights reserved.</p>
+                <p>50.4501&deg;N &middot; 30.5234&deg;E</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
